@@ -271,10 +271,20 @@
                             </div>
                         </div>
 
-                       <div>
-                           <!-- to be written -->
+                       <div class ="semicircle">
+                          <div class="combine">
+                           <div class="inside-semicircle">
+                            <i class="fa fa-smile-o" aria-hidden="true"></i>
+                           </div>
+                           <span style="font-weight:600; font-size:1.3rem">76.7%</span>
+                        </div>
                        </div>
-                    
+                       <div class="col3-3">
+                           <span style="color: #b1b5be;font-size:11px">0%</span>
+                           <span style="color: #b1b5be;font-size:11px">Based on likes/dislikes</span>
+                           <span style="color: #b1b5be;font-size:11px">100%</span>
+                       </div>
+                       
                     </div>
 
                     <div class="column4">
@@ -317,7 +327,7 @@
             labels: ['Dec 21', 'Dec 22', 'Dec 23', 'Dec 24', 'Dec 25','Dec 26','Dec 27'],
             datasets: [{
                 label: '# of Votes',
-                data: [300,290, 285, 290, 295, 290,300],
+                data: [320,310, 300, 320, 300, 310,320],
                 barThickness: 6,
                 backgroundColor: [
                     '#01b075',
@@ -333,6 +343,7 @@
             }]
         },
         options: {
+            barRoundness: 1,
             legend: {
                 display: false
             },
@@ -360,7 +371,7 @@
                     },
                     ticks: {
                         min: 270,
-                        max: 300,
+                        max: 320,
                         stepSize: 10
         }
                 }]
